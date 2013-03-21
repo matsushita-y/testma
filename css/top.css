@@ -1,0 +1,459 @@
+@charset "UTF-8";
+* {
+	list-style: none;
+	text-decoration:none;
+	font-weight: lighter;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 13px;
+}
+body {
+	background-image: url(../img/back.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#headder {
+	width: 900px;
+	padding-top: 13px;
+	height: 107px;
+}
+#head_left {
+	background-image: url(../img/tophp_04.gif);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	float: left;
+	height: 107px;
+	width: 400px;
+}
+#head_left  h1 {
+	display: none;
+}
+#head_right {
+	height: 107px;
+	width: 500px;
+	clear: none;
+	float: right;
+	text-align: right;
+}
+.style2 a {
+	color: #415c89;
+}
+
+.style2 a:hover {
+	background-color: #ffffff;
+	color: #6F87B1;
+}
+
+.style2 a:hover img {
+	visibility: hidden;
+}
+
+
+#head_right h2 {
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 11px;
+	color: #666666;
+	font-weight: normal;
+}
+#head_right h4 {
+	font-size: 13px;
+	color: #666666;
+}
+#head_right ul {
+	text-align: right;
+	width: 364px;
+	display: block;
+	float: right;
+	font-weight: lighter;
+	clear: both;
+	color: #415c89;
+	font-size: 15px;
+}
+#head_right li {
+	float: right;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #415c89;
+	margin-left: 10px;
+	font-weight: lighter;
+	padding-left: 10px;
+	height: 15px;
+	line-height: 10pt;
+	display: block;
+}
+#migi {
+	padding-bottom: 15px;
+	line-height: 120%;
+}
+
+#contents {
+	height: 53px;
+	width: 900px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#contents li {
+	float: left;
+	border-left-color: #FFFFFF;
+}
+
+.top a {
+	display: block;
+	height: 53px;
+	width: 115px;
+	background-image: url(../img/tophp_07.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-right: 10px;
+}
+
+
+
+.kamoku a {
+	display: block;
+	height: 53px;
+	width: 155px;
+	background-image: url(../img/tophp_09.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-right: 10px;
+}
+
+.kamoku a:hover {
+	display: block;
+	height: 53px;
+	width: 155px;
+	background-color: #ffffff;
+}
+
+.kamoku a:hover img {
+	visibility: hidden;
+}
+
+.access a {
+	display: block;
+	height: 53px;
+	width: 119px;
+	background-image: url(../img/tophp_11.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-right: 10px;
+}
+
+.access a:hover {
+	display: block;
+	height: 53px;
+	width: 119px;
+	background-color: #ffffff;
+}
+
+.access a:hover img {
+	visibility: hidden;
+}
+.shisetu a {
+	display: block;
+	height: 53px;
+	width: 158px;
+	background-image: url(../img/tophp_13.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-right: 10px;
+}
+
+.shisetu a:hover {
+	display: block;
+	height: 53px;
+	width: 158px;
+	background-color: #ffffff;
+}
+
+.shisetu a:hover img {
+	visibility: hidden;
+}
+.ganhakken a {
+	display: block;
+	height: 53px;
+	width: 197px;
+	background-image: url(../img/tophp_15.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-right: 10px;
+}
+
+.ganhakken a:hover {
+	display: block;
+	height: 53px;
+	width: 197px;
+	background-color: #ffffff;
+}
+
+.ganhakken a:hover img {
+	visibility: hidden;
+}
+.doctorcolumn  a {
+	display: block;
+	height: 53px;
+	width: 106px;
+	background-image: url(../img/tophp_17.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.doctorcolumn  a:hover {
+	display: block;
+	height: 53px;
+	width: 106px;
+	background-color: #ffffff;
+}
+.doctorcolumn  a:hover  img {
+	visibility: hidden;
+}
+#bady_goudou {
+	height: 500px;
+}
+#bady_goudou p {
+	font-size: 14px;
+	color: #454545;
+	font-weight: lighter;
+}
+
+#mainimage {
+	height: 276px;
+	width: 900px;
+	background-image: url(../img/tophp_18.jpg);
+	margin-bottom: 20px;
+}
+#mainimage  h4 {
+	display: none;
+}
+#column_icon {
+	height: 110px;
+	width: 260px;
+	float: right;
+	margin-right: 27px;
+	margin-top: 166px;
+}
+#column_icon  p {
+	font-size: 14px;
+	font-weight: normal;
+	color: #515892;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	padding-bottom: 5px;
+}
+
+.doctor a {
+	display: block;
+	height: 80px;
+	width: 260px;
+	background-image: url(../img/tophp_21.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.doctor a:hover {
+	display: block;
+	height: 80px;
+	width: 260px;
+	background-color: #E4E7E4;
+}
+
+.doctor a:hover img {
+	visibility: hidden;
+}
+
+#body_left {
+	width: 579px;
+	float: left;
+	clear: both;
+}
+.bunsho  {
+	font-weight: lighter;
+	font-size: 11pt;
+	padding-left: 10px;
+	line-height: 180%;
+	padding-top: 5pt;
+}
+#title {
+	background-image: url(../img/tophp_27.gif);
+	background-repeat: no-repeat;
+	height: 34px;
+}
+#title h3 {
+	display: none;
+}
+#kamoku_title {
+	height: 42px;
+	background-image: url(../img/tophp_30.gif);
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+#kamoku_title h4 {
+	display: none;
+}
+#jikan_title {
+	height: 42px;
+	background-image: url(../img/tophp_42.gif);
+	margin-top: 30px;
+	margin-bottom: 15px;
+	clear: none;
+}
+#jikan_title h4 {
+	display: none;
+}
+#shinryo_left {
+	height: 35px;
+	width: 573px;
+}
+.buttom a {
+	display: block;
+	height: 33px;
+	width: 174px;
+	background-image: url(../img/tophp_34.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	clear: none;
+	float: right;
+	padding-right: 10px;
+}
+
+.buttom a:hover {
+	display: block;
+	height: 35px;
+	width: 174px;
+	background-color: #FFFFFF;
+}
+
+.buttom a:hover img {
+	visibility: hidden;
+}
+
+#naika_naiyo {
+	height: 33px;
+	width: 579px;
+}
+#naika {
+	float: left;
+	height: 33px;
+	width: 375px;
+	padding-left: 10px;
+}
+#globalnavi {
+	background-image: url(../img/tophp_37.gif);
+	height: 222px;
+	width: 260px;
+	/* margin-top: 18px; */
+	padding-top: 15px;
+	padding-right: 14px;
+	padding-left: 14px;
+}
+#body_right {
+	float: right;
+	width: 288px;
+	clear: right;
+}
+.goyoyaku  a {
+	display: block;
+	height: 222px;
+	width: 288px;
+	background-image: url(../img/tophp_26.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.goyoyaku  a:hover {
+	display: block;
+	height: 222px;
+	width: 288px;
+	background-color: #ffffff;
+}
+.goyoyaku  a:hover  img {
+	visibility: hidden;
+}
+
+.event {
+  margin-bottom: 15px;
+}
+.bosyuu {
+  margin-bottom: 15px;
+}
+
+.event  a {
+	display: block;
+	height: 68px;
+	width: 288px;
+	background-image: url(../img/event_on.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.event  a:hover {
+	display: block;
+	height: 68px;
+	width: 288px;
+	background-color: #ffffff;
+}
+.event  a:hover  img {
+	visibility: hidden;
+}
+
+
+
+
+
+
+.kufubest5  a {
+	display: block;
+	height: 133px;
+	width: 260px;
+	background-image: url(../img/tophp_40.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-bottom: 15px;
+}
+.kufubest5  a:hover {
+	display: block;
+	height: 133px;
+	width: 260px;
+	background-color: #D1D7DD;
+}
+.kufubest5  a:hover  img {
+	visibility: hidden;
+}
+
+.esdgijutu  a {
+	display: block;
+	height: 60px;
+	width: 260px;
+	background-image: url(../img/tophp_46.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin: auto;
+}
+.esdgijutu  a:hover {
+	display: block;
+	height: 60px;
+	width: 260px;
+	background-color: #D1D7DD;
+}
+.esdgijutu  a:hover  img {
+	visibility: hidden;
+}
+
+
+#footer {
+	clear: both;
+	height: 50px;
+	width: 900px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: lighter;
+	background-image: url(../img/tophp_52.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-top: 20px;
+}
